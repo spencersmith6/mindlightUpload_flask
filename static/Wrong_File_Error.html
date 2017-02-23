@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mindlight</title>
+</head>
+<body>
+    <h1>Error</h1>
+    <b>An incorrect file type was submitted. Please try again</b>
+    <form action="/upload" method=post enctype=multipart/form-data>
+        <b>Clinic Name:</b>
+        <input type="text" name="clinic">
+        <b>Excel File:</b>
+        <input type=file name='excel'>
+        <b>Zip File:</b>
+        <input type=file name='zip'> <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
